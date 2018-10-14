@@ -1,0 +1,15 @@
+/bitrix
+/upload
+.idea/*
+*.log
+*.sql
+*.txt
+*.xml
+*.dt
+*.swp
+*.swo
+*.DS_Store
+*.sh
+*.bat
+.htaccess
+web.config

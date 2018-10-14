@@ -1,0 +1,14 @@
+.svg {
+  display: inline-block;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  &.pencil {
+    background-image: url('/svg/pencil.svg');
+  }
+  &.bin {
+    background-image: url('/svg/rubbish-bin.svg');
+  }
+}

@@ -1,0 +1,59 @@
+.svg {
+  display: inline-block;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px; }
+  .svg.pencil {
+    background-image: url("/svg/pencil.svg"); }
+  .svg.bin {
+    background-image: url("/svg/rubbish-bin.svg"); }
+
+.btn {
+  padding: 5px 15px;
+  background: #5bc0de;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  float: left;
+  margin: 2em 0; }
+  table thead {
+    border-bottom: 3px solid #5bc0de; }
+    table thead th {
+      padding: 0.35em 0 .35em;
+      font-weight: 400;
+      text-align: left;
+      font-size: 1.25em; }
+  table tbody {
+    border-bottom: 3px solid #5bc0de; }
+    table tbody tr {
+      border-bottom: 2px solid #ddd; }
+      table tbody tr:nth-child(even) {
+        background: lightcyan; }
+      table tbody tr td {
+        padding: .75em 0; }
+        table tbody tr td a {
+          color: #5bc0de;
+          text-decoration: none;
+          display: inline-block;
+          margin: 0 .5em 0 0; }
+          table tbody tr td a:hover, table tbody tr td a:active, table tbody tr td a:focus {
+            color: #31b0d5;
+            border: none; }
+
+form input, form button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px; }
+  form input[type=text], form button[type=text] {
+    border: 1px solid #5bc0de; }
+  form input[type=submit], form button[type=submit] {
+    cursor: pointer;
+    background: #5cb85c; }
+
+/*# sourceMappingURL=main.css.map */
