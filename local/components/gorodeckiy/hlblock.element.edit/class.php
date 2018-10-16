@@ -32,7 +32,7 @@ class hlblockElementEditComponent extends CBitrixComponent
         }
 
         $fields = array(
-            "select" => array("UF_NAME"),
+            "select" => array("UF_*"),
             "filter" => array("ID" => $ELEMENT_ID)
         );
         $result = $hlblock->getList($ID, $fields);
